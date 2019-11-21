@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>sy7-3</title>
+<style>
+	body{
+		background: url("images/c.jpg")no-repeat top center;
+		padding:20px 0 0 880px;
+	}
+	form{
+		width:248px;
+		height:500px;
+		background-color: transparent;
+		padding: 30px 40px;
+		border: 2px solid #CE9E9F;
+		border-radius: 60px;
+	}
+	input{
+		display: block;
+	}
+	[type="text"],[type="password"]{
+		width:250px;
+		height:38px;
+		border:2px solid #CE9E9F;
+		margin-bottom: 30px;
+		font-size: 16px;
+		text-indent: 50px;
+	}
+	[type="text"]:hover{
+		background-color:snow;
+	}
+	[type="password"]:hover{
+		background-color:snow;
+	}
+	[type="text"]{
+		background: url("images/zhanghao.jpg")no-repeat 0 -2px;
+		margin-bottom: 50px;
+		margin-top: 30px;
+		background-color: skyblue;
+	}
+	[type="password"]{
+		background: url("images/mima.jpg")no-repeat 0 -2px;
+		margin-bottom: 12px;
+		background-color: skyblue;
+	}
+	[type="checkbox"]{
+		display: inline;
+		vertical-align: middle;
+	}
+	label.a{
+		font-size:15px;
+		color:yellowgreen;
+		display: inline-block;
+	}
+	label.b{
+		font-size:15px;
+		color:navajowhite;
+		display: inline-block;
+	}
+	.reg{
+		text-align:center;
+		font-size: 12px;
+		margin-top:-18px;
+		display: inline-block;
+	}
+	.reg a{
+		display: inline-block;
+		color:#F00;
+		text-decoration: none;
+		margin-left: 15px;
+		font-size: 15px;
+	}
+	.reg a:hover{
+		color:#F00;
+		text-decoration: underline;
+	}
+	[type="submit"]{
+		width:255px;
+		height:44px;
+		margin:25px auto;
+		background-image: url("images/but.jpg");
+		border:none;
+		margin-top: 40px;
+	}
+	[type="submit"]:hover{
+		background-image: url("images/d.png")
+	}
+	.related{
+		margin-left:30px;
+		margin-top:60px;
+		width:270px;
+		height:145px;
+		background-color: transparent;
+		border: 2px solid #6F46C4;
+		border-radius: 50%;
+		padding-top: 80px;
+		text-align: center;
+		font-size: 25px;
+		color:sandybrown;
+		font-family: "仿宋";
+	}
+	.related a{
+		vertical-align: middle;
+	}
+	[type="reset"]{
+		display: inline-block;
+		margin-bottom: 10px;
+		margin-left:30px;
+		width:120px;
+		height: 25px;
+		background-color: chocolate;
+		font-size:15px;
+	}
+	[type="reset"]:hover{
+		background-color: crimson;
+	}
+	select{
+		width: 70px;
+		height:27px;
+		display: inline-block;
+		margin-bottom: 20px;
+		background-color:wheat;
+		font-size:20px;
+	}
+	[type="radio"]{
+		display: inline-block;
+		margin-bottom: 10px;
+	}
+	
+	.biaoti{
+		display: inline-block;
+		width:150px;
+		
+		background-color:transparent;
+		font-family: serif,sans-serif,cursive;
+		height: 100px;
+		line-height:100px;
+		font-size:50px;
+		font-weight:bold;
+		color:white;
+		text-align: center;
+		text-shadow:0 0 4px white,0 -5px 6px cornflowerblue,2px -10px 6px powderblue,-2px -15px 11px aqua,2px -25px 18px cyan;
+	}
+	.biaoti2{
+		display: inline-block;
+		width:50px;
+		margin-left: 18px;
+		background-color:transparent;
+		font-family: serif,sans-serif,cursive;
+		height: 100px;
+		line-height:100px;
+		font-size:100px;
+		font-weight:bold;
+		color:white;
+		text-align: center;
+		text-shadow:0 0 4px white,0 -5px 6px orange,2px -10px 6px red,-2px -15px 11px yellow,2px -25px 18px red;
+	}
+	
+</style>
+</head>
+
+<body>
+<form action="#" method="post" name="form">
+<div class="biaoti2">L</div>
+<div class="biaoti">ogin!!!</div>
+	<input type="text" name="user" placeholder="用户名/邮箱地址/手机号">
+	<input type="password" name="password" placeholder="填写密码">
+	
+	<select>
+	<option>学生</option>
+	<option>教师</option>
+	<option>家长</option>
+	</select>
+	<input type="reset" name="reset" value="重置输入内容"><br>
+	
+	<input type="radio" name="sex" value="male" id="male">
+	<label class="b">Male</label>
+	<input type="radio" name="sex" value="female" id="female">
+	<label class="b">Female</label><br>
+	
+	<input type="checkbox" name="account" value="1" id="account">
+	<label for="account" class="a">记住账号</label>
+	<div class="reg">
+		<a href="#">欢迎注册</a>
+		<a href="#">忘记密码</a>
+	</div>
+	<input type="submit" name="submit" value="">
+</form>
+<div class="related">
+	合作网站账号登录:<br/><br/>
+	<a href="#"><img src="images/weixin1.png" alt=""></a>
+	<a href="#"><img src="images/qqlogin.png" alt=""></a>
+	<a href="#"><img src="images/taobao.png" alt=""></a>
+</div>
+</body>
+</html>
